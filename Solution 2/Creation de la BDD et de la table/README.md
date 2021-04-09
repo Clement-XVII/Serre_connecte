@@ -17,6 +17,7 @@ Quand vous avez tous installé, connectez-vous à Phpmyadmin pour cela entré da
 1- Ensuite développer la table creer juste avant, comme sur l'image.
 
 2- aller dans l'onglet SQL.
+
 3- entrer le code ci-dessous:
 
 <p align="center">
