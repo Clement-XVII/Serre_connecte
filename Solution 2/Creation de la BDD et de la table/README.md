@@ -1,12 +1,13 @@
 Pour cette partie je ne vais pas pouvoir trop vous aider mais je vous conseille vivement de suivre ce tuto.
 https://linuxhint.com/install_phpmyadmin_debian_10/
+
 Quand vous avez tous installé, connectez-vous à Phpmyadmin pour cela entré dans l'URL votre adresse IP/Phpmyadmin comme dans l'image ci-dessous.
 
-1- Créer une table 
+1- Créer une table.
 
-2- Appeler la "test" 
+2- Appeler la "test".
 
-3- Créer là base de données
+3- Créer là base de données.
 
 <p align="center">
      <img src="/IMG/Dessin sans titre.png" width="540" height="360">
@@ -15,8 +16,7 @@ Quand vous avez tous installé, connectez-vous à Phpmyadmin pour cela entré da
 
 1- Ensuite développer la table creer juste avant, comme sur l'image.
 
-2- aller dans l'onglet SQL 
-
+2- aller dans l'onglet SQL.
 3- entrer le code ci-dessous:
 
 <p align="center">
