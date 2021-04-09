@@ -5,18 +5,18 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 #define         BOOL_PIN                     (2)
-#define         DHTPIN                        (8)    
+#define         DHTPIN                       (8)          //-> définir pin DHT22    
 #define         DHTTYPE DHT22                        
-#define         MG_PIN                       (A0)
+#define         MG_PIN                       (A0)         //-> définir pin capteur CO2
 #define         DC_GAIN                      (8.5)   
 #define         READ_SAMPLE_INTERVAL         (50)    
 #define         READ_SAMPLE_TIMES            (5)     
 #define         ZERO_POINT_VOLTAGE           (0.220) 
 #define         REACTION_VOLTGAE             (0.030) 
-#define         SensorPin 0
-#define         WATER_TEMP_PIN                (A4)   
+#define         SensorPin                    (0)          
+#define         WATER_TEMP_PIN               (A4)         //-> définir pin capteur sonde thermique
 const float VRefer = 3.3;                            
-const int pinAdc   = A2;                             
+const int pinAdc   = A2;                                  //-> définir pin capteur O2                           
 float CO2Curve[3]  =  {2.602,ZERO_POINT_VOLTAGE,(REACTION_VOLTGAE/(2.602-3))};
 OneWire oneWire(WATER_TEMP_PIN); 
 DallasTemperature sensors(&oneWire);
@@ -26,7 +26,7 @@ const int chipSelect = 4;
 byte mac[] = {
   0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
 };
-IPAddress ip(192, 168, 1, 177);
+IPAddress ip(192, 168, 1, 177);                           //-> Mettre adresse IP libre
 EthernetServer server(80);
 void setup() {
   Serial.begin(9600);
