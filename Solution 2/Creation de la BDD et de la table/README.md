@@ -24,11 +24,11 @@ Quand vous avez tous installé, connectez-vous à Phpmyadmin pour cela entré da
      <img src="/IMG/Dessin sans titre (1).png" width="540" height="360">
 </p>
 
-`CREATE TABLE `test`.`sensor` (
+/*CREATE TABLE `test`.`sensor` (
 `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 `time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 `value` VARCHAR( 10 ) NOT NULL
- );`
+ );*/
 
 Voilà la table ainsi que les champs sont créés je vous invite à vous renseigner un peu sur le fonctionnement d'une base de données.
 Je vous donne les liens qui mon aider et que j'ai dû adapter avec les nouvelles mises à jour.
