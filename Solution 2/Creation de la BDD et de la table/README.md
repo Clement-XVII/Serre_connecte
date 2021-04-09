@@ -14,9 +14,9 @@ Quand vous avez tous installé, connectez-vous à Phpmyadmin pour cela entré da
 </p> 
 
 
-1- Ensuite cliquer la table créer juste avant, comme sur l'image.
+1- Ensuite cliquer sur la table "test" créer juste avant, comme sur l'image.
 
-2- Aller dans l'onglet SQL.
+2- Aller dans l'onglet SQL en haut.
 
 3- Entrer le code ci-dessous:
 
