@@ -5,9 +5,9 @@ Quand vous avez tous installé, connectez-vous à Phpmyadmin pour cela entré da
 
 1- Créer une table 
 
-2- Appeler la "teste" 
+2- Appeler la "test" 
 
-3- creer là
+3- Créer là base de données
 
 <p align="center">
      <img src="/IMG/Dessin sans titre.png" width="540" height="360">
