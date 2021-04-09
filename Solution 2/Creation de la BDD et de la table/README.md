@@ -3,7 +3,9 @@ https://linuxhint.com/install_phpmyadmin_debian_10/
 Quand vous avez tous installé, connectez-vous à Phpmyadmin pour cela entré dans l'URL votre adresse IP/Phpmyadmin comme dans l'image ci-dessous.
 
 1- Créer une table 
+
 2- Appeler la "teste" 
+
 3- creer là
 
 <p align="center">
@@ -12,18 +14,20 @@ Quand vous avez tous installé, connectez-vous à Phpmyadmin pour cela entré da
 
 
 1- Ensuite développer la table creer juste avant, comme sur l'image.
+
 2- aller dans l'onglet SQL 
+
 3- entrer le code ci-dessous:
 
 <p align="center">
-     <img src="/IMG/Dessin sans titre(1).png" width="540" height="360">
+     <img src="/IMG/Dessin sans titre (1).png" width="540" height="360">
 </p>
 
-CREATE TABLE `test`.`sensor` (
+"CREATE TABLE `test`.`sensor` (
 `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 `time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 `value` VARCHAR( 10 ) NOT NULL
- );
+ );"
 
 Voilà la table ainsi que les champs sont créés je vous invite à vous renseigner un peu sur le fonctionnement d'une base de données.
 Je vous donne les liens qui mon aider et que j'ai dû adapter avec les nouvelles mises à jour.
