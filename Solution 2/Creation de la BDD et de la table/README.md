@@ -14,11 +14,11 @@ Quand vous avez tous installé, connectez-vous à Phpmyadmin pour cela entré da
 </p> 
 
 
-1- Ensuite développer la table creer juste avant, comme sur l'image.
+1- Ensuite cliquer la table créer juste avant, comme sur l'image.
 
-2- aller dans l'onglet SQL.
+2- Aller dans l'onglet SQL.
 
-3- entrer le code ci-dessous:
+3- Entrer le code ci-dessous:
 
 <p align="center">
      <img src="/IMG/Dessin sans titre (1).png" width="540" height="360">
@@ -33,8 +33,8 @@ CREATE TABLE `test`.`sensor` (
 ```
 
 Voilà la table ainsi que les champs sont créés je vous invite à vous renseigner un peu sur le fonctionnement d'une base de données.
-Je vous donne les liens qui mon aider et que j'ai dû adapter avec les nouvelles mises à jour.
+Je vous donne les liens qui mon aider.
 
-https://icreateproject.info/2014/12/14/arduino-save-data-to-database/
+https://icreateproject.info/2014/12/14/arduino-save-data-to-database/ 
 
 https://www.w3schools.com/php/php_mysql_insert.asp
