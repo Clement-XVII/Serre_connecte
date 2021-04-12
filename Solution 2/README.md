@@ -13,4 +13,7 @@ Pour lancer le service php vous devez executer la commande suivante:
 ```
 sudo systemctl start apache2
 ```
-Untitled Diagram.png
+
+<p align="center">
+     <img src="/IMG/Untitled Diagram.png" width="734" height="311">
+</p> 
