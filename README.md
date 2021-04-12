@@ -1,5 +1,5 @@
 # Serre_connecte
-Projet Lycée Serre connecté Bac Pro SN Option RISC
+Projet Lycée Serre connectée Bac Pro SN Option RISC
 
 Notre projet était de pouvoir consultés les données à distance. Pour cela nous avons un Arduino et plusieurs capteurs comme CO2, O2, DHT22... Nous sommes partie sur deux solutions:
 
