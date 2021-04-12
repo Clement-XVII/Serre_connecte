@@ -8,3 +8,5 @@ Notre projet était de pouvoir consultés les données à distance. Pour cela no
 2- Base de données en Maria Db, Apache2 et Phpmyadmin. La base de données est faits sur une machine virtuelle faite sous Virtualbox et c'est une Debian 10 sans interface graphique.
 
 Le problème que nous avons vite fait face avec la première solution et que le programme était bien trop volumineux pour l'Arduino ce qui provoquait des bugs au niveau de la page web qui s'afficher mal. Le programme marche mais avec environ 4 capteurs. Donc nous sommes partie sur la deuxième solutions mais je vais aussi mettre la première solutions pour ceux qui seraient intéressés.
+
+Author : Clement-XVII
