@@ -15,5 +15,5 @@ sudo systemctl start apache2
 ```
 
 <p align="center">
-     <img src="/IMG/Untitled Diagram.png" width="734" height="311">
+     <img src="/IMG/Schema.png" width="734" height="311">
 </p> 
