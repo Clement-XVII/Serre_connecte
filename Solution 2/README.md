@@ -10,6 +10,6 @@ Quand tous est fini il faut lancer le service Apache2 pour pouvoir ce connecter 
 
 Pour lancer le service php vous devez executer la commande suivante:
 
-'''
+```
 sudo systemctl start apache2
-'''
+```
