@@ -32,7 +32,7 @@ CREATE TABLE `test`.`sensor` (
  );
 ```
 
-Cliquer sur "Éxécuter"  en bas à droite.
+Cliquer sur "Exécuter"  en bas à droite.
 
 Voilà la table ainsi que les champs sont créés je vous invite à vous renseigner un peu sur le fonctionnement d'une base de données.
 Je vous donne les liens qui mon aider.
