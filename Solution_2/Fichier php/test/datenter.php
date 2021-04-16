@@ -5,6 +5,7 @@ header("Refresh: 5; URL=$url");  // Refresh the webpage every 5 seconds
 
 <html>
 <head>
+    <meta name="author" content="Clement-XVII">
     <title>Sensor temp DHT22</title>
     <style type="text/css">         
     body{

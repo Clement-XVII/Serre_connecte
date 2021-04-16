@@ -35,6 +35,7 @@
 <html>
   <head>
   <meta charset="utf-8"/>
+  <meta name="author" content="Clement-XVII">
   <title>Custom Sectors</title>
   <style type="text/css">     
   body{
