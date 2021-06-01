@@ -11,8 +11,8 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO test.sensor (value) VALUES ('".$_GET["value"]."')";    
-
+//$sql = "INSERT INTO test.sensor (value) VALUES ('".$_GET["value"]."')";    
+$sql = "INSERT INTO sensor (temp, hum) VALUES (('".$_GET["temp"]."'), ('".$_GET["hum"]."'))";
     // Execute SQL statement
 
     if (mysqli_query($conn, $sql)) {
