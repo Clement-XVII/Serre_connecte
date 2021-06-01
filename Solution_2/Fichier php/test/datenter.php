@@ -77,7 +77,7 @@ header("Refresh: 5; URL=$url");  // Refresh the webpage every 5 seconds
        
     // Retrieve all records and display them   
     //$sql = "SELECT * FROM sensor WHERE sensor.time BETWEEN '2021-01-01 00:00:00' AND '2021-12-31 23:59:59' ORDER BY id DESC LIMIT 24";
-    $sql = "SELECT * FROM sensor WHERE sensor.time BETWEEN CURRENT_DATE() AND CURRENT_DATE() + INTERVAL 1 DAY ORDER$";
+    $sql = "SELECT * FROM sensor WHERE sensor.time BETWEEN CURRENT_DATE() AND CURRENT_DATE() + INTERVAL 1 DAY ORDER BY id DESC";
     //$sql = "SELECT time, value FROM sensor ORDER BY id DESC LIMIT 5";
 
     $result = mysqli_query($conn, $sql);
