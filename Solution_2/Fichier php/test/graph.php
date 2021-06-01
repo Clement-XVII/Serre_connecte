@@ -17,7 +17,7 @@
 
 	//query to get data from the table
 	//'2021-04-13 00:00:00'
-	$sql = "SELECT * FROM sensor WHERE sensor.time BETWEEN CURRENT_DATE() AND CURRENT_DATE()+1 ORDER BY id ASC";
+	$sql = "SELECT * FROM sensor WHERE sensor.time BETWEEN CURRENT_DATE() AND CURRENT_DATE() + INTERVAL 1 DAY ORDER BY id DESC";
 	//$sql = "SELECT * FROM sensor WHERE id BETWEEN 50 AND 100";
 	//"SELECT order_date, SUM(grand_total) AS total_grand  FROM orders GROUP BY order_date LIMIT = 15";
     $result = mysqli_query($conn, $sql);
