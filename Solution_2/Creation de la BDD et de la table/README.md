@@ -25,11 +25,12 @@ Quand vous avez tous installé, connectez-vous à Phpmyadmin pour cela entré da
 </p>
 
 ```
-CREATE TABLE `test`.`sensor` (
-`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-`time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-`value` VARCHAR( 10 ) NOT NULL
- );
+CREATE TABLE `sensor` (
+  `id` int(11) NOT NULL,
+  `time` timestamp NOT NULL DEFAULT current_timestamp(),
+  `temp` varchar(10) NOT NULL,
+  `hum` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 
 Cliquer sur "Exécuter"  en bas à droite.
